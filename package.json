@@ -4,7 +4,7 @@
   "description": "Primer Proyecto con Node.js",
   "license": "ISC",
   "author": "Angel Anzatuña",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
