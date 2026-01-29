@@ -1,6 +1,17 @@
 extends ./layout/index
 
+block slider
+    .slider 
+        h1 Rio de Jainero 
+        em aventura
+
 block contenido
     main.container.mt-5 
-        .row 
-            h1= pagina
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5 
+            .col-md-6
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, perspiciatis! Maiores nesciunt adipisci illum cum voluptatum facilis odit fugiat nostrum vero a esse commodi, dolore error est modi odio atque.
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum praesentium maxime repudiandae aspernatur enim, unde dolorem culpa tempora natus iure rerum veniam cum magni magnam doloremque? Error dicta qui facilis.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+            
